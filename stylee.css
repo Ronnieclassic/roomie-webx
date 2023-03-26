@@ -1,0 +1,82 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html{
+    background-image: url(pexels-eberhard-grossgasteiger-1421903.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    width: 109vw;
+    height: 109vh;
+}
+body{
+    color: rgb(246, 247, 245);
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: large;
+}
+ul a{
+    color: rgb(240, 248, 255);
+    cursor: pointer;
+}
+ul a:hover{
+    color: rgb(7, 180, 248);
+}
+@keyframes slideinleft{
+    from transform: translateX(-300px)
+
+to{
+    transform translateX(0)
+}
+}
+h1{
+    
+}
+.grid{
+    display: grid;
+    grid-template-areas:
+    "ABOUT";
+    grid-template-columns: 1fr;
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    background: transparent;
+    color: rgb(241, 245, 20);
+}
+.ABOUT{
+    grid-area: ABOUT;
+}
+.ID{
+    display: grid;
+    grid-template-areas:
+    "HTML CSS JavaScript ADDITIONAL";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    background: transparent;
+    color: rgb(250, 250, 246);
+}
+.HTML.CSS.JavaScript.ADDITIONAL{
+    grid-area: HTML,CSS,JavaScript,ADDITIONAL;
+}
+li{
+    color: rgb(5, 250, 148);
+}
+.UL{
+    display: grid;
+    grid-template-areas:
+    "PAGE1 PAGE2";
+    grid-template-columns: 1fr 1fr;
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    background: transparent;
+    color: rgb(250, 250, 246);
+}
+.PAGE1.PAGE2{
+    grid-area: PAGE1,PAGE2;
+}
